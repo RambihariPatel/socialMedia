@@ -1,16 +1,24 @@
-# React + Vite
+# socialMedia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I created a Social Media web app using React, 
+where users can create and upload posts.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) htmlFor Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) htmlFor Fast Refresh
+## React + Vite Setup
+
+This project is built using React with Vite, which provides fast development,
+HMR (Hot Module Replacement), and ESLint rules.
+
+### Available official plugins:
+- @vitejs/plugin-react (with Babel)
+- @vitejs/plugin-react-swc (with SWC)
 
 ## React Compiler
+The React Compiler is disabled by default to avoid dev/build performance issues.
+You can enable it using the official documentation if needed.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ESLint Configuration
+For production-level applications, it is recommended to use TypeScript with
+type-aware linting.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) htmlFor information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
